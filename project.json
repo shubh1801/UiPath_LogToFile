@@ -3,16 +3,17 @@
   "description": "Activity to log process locally",
   "main": "Log to Excel.xaml",
   "dependencies": {
-    "UiPath.UIAutomation.Activities": "18.4.2",
-    "UiPath.System.Activities": "18.4.1",
     "UiPath.Excel.Activities": "2.4.6884.25683",
-    "UiPath.Mail.Activities": "1.2.6863.29868"
+    "UiPath.Mail.Activities": "1.2.6863.29868",
+    "UiPath.System.Activities": "18.4.1",
+    "UiPath.UIAutomation.Activities": "18.4.2"
   },
   "schemaVersion": "3.2",
   "studioVersion": "18.4.1.0",
-  "projectVersion": "1.0.7011.30046",
+  "projectVersion": "1.0.7130.4169",
   "runtimeOptions": {
     "autoDispose": false,
+    "isPausable": true,
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -45,5 +46,6 @@
       }
     ],
     "output": []
-  }
+  },
+  "webServices": []
 }
